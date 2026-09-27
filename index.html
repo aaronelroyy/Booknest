@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BookNest | Online Bookstore</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVIGATION BAR ============ -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">📚 BookNest</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#books">Books</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============ HERO SECTION ============ -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Discover Your Next Favorite Book</h1>
+      <p>
+        Browse thousands of titles across fiction, science, technology and more.
+        BookNest brings great stories and great ideas straight to your shelf.
+      </p>
+      <a href="#books" class="btn btn-primary">Explore Books</a>
+    </div>
+    <div class="hero-image">
+      <img src="https://picsum.photos/seed/bookshelf/600/450" alt="Stack of colorful books on a shelf" />
+    </div>
+  </section>
+
+  <!-- ============ SEARCH BAR ============ -->
+  <section class="search-section">
+    <form class="search-bar">
+      <input type="text" placeholder="Search for books, authors, or genres..." aria-label="Search books" />
+      <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+  </section>
+
+  <!-- ============ CATEGORIES SECTION ============ -->
+  <section id="categories" class="categories">
+    <h2 class="section-title">Browse Categories</h2>
+    <div class="category-grid">
+      <div class="category-card">
+        <span class="category-icon">📖</span>
+        <h3>Fiction</h3>
+      </div>
+      <div class="category-card">
+        <span class="category-icon">🔬</span>
+        <h3>Science</h3>
+      </div>
+      <div class="category-card">
+        <span class="category-icon">💻</span>
+        <h3>Technology</h3>
+      </div>
+      <div class="category-card">
+        <span class="category-icon">🌱</span>
+        <h3>Self-Help</h3>
+      </div>
+      <div class="category-card">
+        <span class="category-icon">🏛️</span>
+        <h3>History</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURED BOOKS SECTION ============ -->
+  <section id="books" class="featured-books">
+    <h2 class="section-title">Featured Books</h2>
+    <div class="book-grid">
+
+      <div class="book-card">
+        <img src="https://picsum.photos/seed/book1/250/350" alt="Cover of The Silent Orchard" />
+        <h3>The Silent Orchard</h3>
+        <p class="author">by Maria Lennox</p>
+        <p class="description">A gripping family drama set in the countryside, full of secrets and second chances.</p>
+        <p class="price">$14.99</p>
+        <button class="btn btn-secondary">Buy Now</button>
+      </div>
+
+      <div class="book-card">
+        <img src="https://picsum.photos/seed/book2/250/350" alt="Cover of Galaxies Within" />
+        <h3>Galaxies Within</h3>
+        <p class="author">by Dr. Raj Kapoor</p>
+        <p class="description">An accessible journey through modern astrophysics for curious minds.</p>
+        <p class="price">$19.99</p>
+        <button class="btn btn-secondary">Buy Now</button>
+      </div>
+
+      <div class="book-card">
+        <img src="https://picsum.photos/seed/book3/250/350" alt="Cover of Clean Code Habits" />
+        <h3>Clean Code Habits</h3>
+        <p class="author">by Ethan Brooks</p>
+        <p class="description">Practical tips to write readable, maintainable code every single day.</p>
+        <p class="price">$24.99</p>
+        <button class="btn btn-secondary">Buy Now</button>
+      </div>
+
+      <div class="book-card">
+        <img src="https://picsum.photos/seed/book4/250/350" alt="Cover of Atomic Focus" />
+        <h3>Atomic Focus</h3>
+        <p class="author">by Sarah Nguyen</p>
+        <p class="description">Simple, science-backed habits to build focus and beat procrastination.</p>
+        <p class="price">$16.99</p>
+        <button class="btn btn-secondary">Buy Now</button>
+      </div>
+
+      <div class="book-card">
+        <img src="https://picsum.photos/seed/book5/250/350" alt="Cover of Empires of Old" />
+        <h3>Empires of Old</h3>
+        <p class="author">by Thomas Reyes</p>
+        <p class="description">A sweeping look at ancient civilizations and the empires that shaped our world.</p>
+        <p class="price">$21.99</p>
+        <button class="btn btn-secondary">Buy Now</button>
+      </div>
+
+      <div class="book-card">
+        <img src="https://picsum.photos/seed/book6/250/350" alt="Cover of Whispers of the Sea" />
+        <h3>Whispers of the Sea</h3>
+        <p class="author">by Isla Marchetti</p>
+        <p class="description">A coming-of-age tale set in a quiet fishing village by the ocean.</p>
+        <p class="price">$13.99</p>
+        <button class="btn btn-secondary">Buy Now</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ ABOUT SECTION ============ -->
+  <section id="about" class="about">
+    <h2 class="section-title">About BookNest</h2>
+    <p class="about-text">
+      BookNest is an online bookstore built for readers who love discovering their next great read.
+      We offer a carefully curated collection spanning fiction, science, technology, self-help and
+      history, so whether you're looking to get lost in a story or learn something new, there's a
+      shelf here for you. Our mission is simple: make it easy to find books you'll actually love.
+    </p>
+  </section>
+
+  <!-- ============ CONTACT SECTION ============ -->
+  <section id="contact" class="contact">
+    <h2 class="section-title">Get In Touch</h2>
+    <form class="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="footer-logo">📚 BookNest</p>
+      <p class="copyright">&copy; 2026 BookNest. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" aria-label="Facebook">📘</a>
+        <a href="#" aria-label="Instagram">📷</a>
+        <a href="#" aria-label="Twitter">🐦</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
